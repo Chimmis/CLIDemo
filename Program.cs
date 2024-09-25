@@ -44,7 +44,7 @@ namespace Demo
             {
                 Console.WriteLine("An exception occurred, please check if you wrote a valid command");
                 Console.WriteLine("One of the common mistakes is specifying arguments in the incorrect order");
-                Console.WriteLine("Run tool -h or tool <command name> -h to receive information about the command");
+                Console.WriteLine("Run -h or <command name> -h to receive information about the command");
                 Console.WriteLine($"Exception message: {e.Message}");
 
                 return 1;
